@@ -5,6 +5,8 @@ Facebook has recently removed the feature to download the birthday calendar.
 
 This script will allow you to get all the birthdays in a CSV format (with some manual efforts) which you can the easily import to Google Calendar.
 
+You can also visit [https://deepakmahakale.in/facebook_birthday_export](https://deepakmahakale.in/facebook_birthday_export)
+
 ## Steps
 
 1. Login to Facebook
