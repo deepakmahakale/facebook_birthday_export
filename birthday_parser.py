@@ -18,7 +18,7 @@ with open('birthdays.csv', 'w') as csvfile:
         day = int(row[2])
         month = int(row[1])
 
-        if month <= today.month and day < today.day:
+        if month <= today.month or (month == today.month and day < today.day):
             year = today.year + 1
         else:
             year = today.year
