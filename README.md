@@ -7,6 +7,10 @@ This script will allow you to get all the birthdays in a CSV format (with some m
 
 You can also visit [https://deepakmahakale.in/facebook_birthday_export](https://deepakmahakale.in/facebook_birthday_export)
 
+## Update: Chrome extension is now available
+
+[Facebook Birthdays Export](https://chrome.google.com/webstore/detail/facebook-birthdays-export/hhbdbekeaphpjhoadmgibhdbfehnmpdc)
+
 ## Steps
 
 1. Login to Facebook
