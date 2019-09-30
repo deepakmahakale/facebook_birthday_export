@@ -73,7 +73,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
       $('#FbForm').on('submit', function () {
-        var myRegexp = /data-tooltip-content="(?<name>[a-z0-9 ]+)\((?<month>\d{1,2})\/(?<day>\d{1,2})\)"/gi
+        var myRegexp = /data-tooltip-content="(?<name>[a-z0-9- ]+)\((?<month>\d{1,2})\/(?<day>\d{1,2})\)"/gi
         var data = $('#FbContent').val()
         var matched_data = data.match(myRegexp);
         var csv = []
@@ -83,7 +83,7 @@
         var current_year = today.getFullYear()
         csv.push(['Subject', 'Start date', 'All Day Event'])
         matched_data.forEach(function (element) {
-          match = myRegexp.exec(element)
+          match = new RegExp(myRegexp).exec(element)
           try {
             if(match.groups){
               var group = match.groups
