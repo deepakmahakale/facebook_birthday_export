@@ -9,7 +9,7 @@ You can also visit [https://deepakmahakale.in/facebook_birthday_export](https://
 
 ## Update: Chrome extension is now available
 
-[Facebook Birthdays Export](https://chrome.google.com/webstore/detail/facebook-birthdays-export/hhbdbekeaphpjhoadmgibhdbfehnmpdc)
+[Social Birthdays Export](https://chrome.google.com/webstore/detail/social-birthdays-export/enpcedkgdcblopaldlgcajgebojbnhao)
 
 ## Steps
 
