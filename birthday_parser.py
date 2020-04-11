@@ -2,8 +2,7 @@
 
 import re
 import csv
-from datetime import date
-import datetime
+from datetime import date, timedelta
 
 today = date.today()
 presentDayOfWeek = int(today.strftime("%w"))
@@ -40,9 +39,9 @@ with open('birthdays.csv', 'w') as csvfile:
 
         if dayOfWeek > presentDayOfWeek:
             delta = dayOfWeek-presentDayOfWeek
-            newDate = today + datetime.timedelta(days=delta)
+            newDate = today + timedelta(days=delta)
         else:
             delta = 7 + dayOfWeek-presentDayOfWeek
-            newDate = today + datetime.timedelta(days=delta)
+            newDate = today + timedelta(days=delta)
 
         writer.writerow([row[0], f"{newDate.day}/{newDate.month}/{newDate.year}", True])
